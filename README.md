@@ -1,5 +1,5 @@
 # 🥘 Food Order Website Complete Course
-In this course, you'll learn to Create a Complete Dynamic and Fully Functional Website using PHP prrogramming language and MySQL Database.
+In this course you'll learn to Create a Complete Dynamic and Fully Functional Website using PHP prrogramming language and MySQL Database.
 
 
 # ⚙️ Technology Used
