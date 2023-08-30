@@ -1,0 +1,20 @@
+name: Deploy to Docker Hub
+
+on:
+  push:
+    branches:
+      - main  master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Build Docker image
+      run: docker build -t richadocker03/FoodOrder:latest .
+
+    - name: Push Docker image
+      run: docker push richadocker03/FoodOrder:latest
