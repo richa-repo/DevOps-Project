@@ -1,20 +1,23 @@
-name: Deploy to Docker Hub
+name: Docker Build and Publish
 
 on:
   push:
     branches:
-      - main  master
+      - main
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v2
+      - name: Checkout code
+        uses: actions/checkout@v2
 
-    - name: Build Docker image
-      run: docker build -t richadocker03/FoodOrder:latest .
+      - name: Login to Docker Hub
+        run: docker login -u ${{ secrets.richadocker03 }} -p ${{ secrets.Docker!123 }}
 
-    - name: Push Docker image
-      run: docker push richadocker03/FoodOrder:latest
+      - name: Build Docker image
+        run: docker build -t richadocker03/FoodOrder:latest .
+
+      - name: Push Docker image to Docker Hub
+        run: docker push richadocker03/FoodOrder:latest
