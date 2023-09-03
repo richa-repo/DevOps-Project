@@ -81,7 +81,7 @@
         else
         {
             //User not Available and Login FAil
-            $_SESSION['login'] = "<div class='error text-center'>Username or Password did not match.</div>";
+            $_SESSION['login'] = "<div class='error text-center'>Username or Password did not match. + $count + $username + $password</div>";
             //REdirect to HOme Page/Dashboard
             header('location:'.SITEURL.'admin/login.php');
         }

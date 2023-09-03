@@ -2,7 +2,7 @@
 	box-sizing: border-box;
 }
 body {
-    background:linear-gradient(to right, #cec1e8, #14e962);
+    background:linear-gradient(to right, #ffffff, #ffffff);
 	display: flex;
     font-family: monospace;
 	flex-direction: column;
@@ -62,11 +62,11 @@ input[id='password']
     border-bottom: 1px solid #ffffff;
     display:block; 
     position:relative;
-    font-size:15px;
-    text-align:center;
+    font-size:18px;
+    text-align:after;
     top:50px;
     margin-top: -71px;
-    margin-left:310px;
+    margin-left:250px;
     margin-bottom:40px;
     user-select:auto;
     font-family:monospace;
@@ -82,7 +82,7 @@ i
 {
    display:block;
    position:relative;
-   margin:4%;
+   margin:2%;
    color:red; font-size:18px;
    width:52% ;
    

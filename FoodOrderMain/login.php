@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8"/>
     <title>Login</title>
-    <link rel="stylesheet" href="css/pwd_validation.css"/>
+    <link rel="stylesheet" href="../css/pwd_validation.css"/>
 </head>
 <body>
 <?php
