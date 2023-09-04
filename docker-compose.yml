@@ -16,3 +16,5 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: "Spikey!89"
       MYSQL_DATABASE: "foodorder"
+      MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
+
