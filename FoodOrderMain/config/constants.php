@@ -1,7 +1,7 @@
 <?php 
-    //if(empty(session_id()) && !headers_sent()){
+    if(empty(session_id()) && !headers_sent()){
         session_start();
-    //}
+    }
 
 
     //Create Constants to Store Non Repeating Values
