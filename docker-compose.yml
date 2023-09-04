@@ -16,6 +16,6 @@ services:
     environment:
       - MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
       - MYSQL_ROOT_PASSWORD: "Spikey!89"
-      MYSQL_DATABASE: "foodorder"
-      MYSQL_USER: "root"
-      MYSQL_PASSWORD: "root"
+      - MYSQL_DATABASE: "foodorder"
+      - MYSQL_USER: "root"
+      - MYSQL_PASSWORD: "root"
