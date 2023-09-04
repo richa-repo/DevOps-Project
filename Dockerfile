@@ -1,7 +1,6 @@
 # Use an official PHP runtime as a parent image
-FROM php:7.4-apache
-RUN apt update -y && apt upgrade -y
-RUN docker-php-ext-install mysqli && docker-php-ext-enable mysqli && apachectl restart
+FROM php:7.4.33-apache
+RUN docker-php-ext-install mysqli && docker-php-ext-enable mysqli
 
 # Set the working directory in the container
 WORKDIR /var/www/html
