@@ -1,7 +1,6 @@
 # Use an official PHP runtime as a parent image
 FROM php:7.4-apache
-RUN docker-php-ext-install mysqli
-
+RUN docker-php-ext-install mysqli && docker-php-ext-enable mysqli
 
 # Set the working directory in the container
 WORKDIR /var/www/html
@@ -31,7 +30,7 @@ FROM php:7.4-apache
 WORKDIR /var/www/html
 
 # Copy your PHP application code into the container
-COPY ./FoodOrderMain/ .
+COPY ./ .
 
 # Expose the port for Apache
 EXPOSE 80
