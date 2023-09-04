@@ -19,4 +19,4 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           push: true
-          tags: richadocker03/FoodOrder:latest
+          tags: richadocker03/food-order-php-app
