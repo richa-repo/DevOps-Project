@@ -30,7 +30,7 @@ FROM php:7.4-apache
 WORKDIR /var/www/html
 
 # Copy your PHP application code into the container
-COPY ./ .
+COPY ./FoodOrderMain/ .
 
 # Expose the port for Apache
 EXPOSE 80
