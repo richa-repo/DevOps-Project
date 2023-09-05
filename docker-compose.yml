@@ -14,11 +14,6 @@ services:
     image: mysql:latest
     container_name: mysql
     environment:
-<<<<<<< HEAD
-      MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
-      MYSQL_DATABASE: "foodorder"
-=======
       MYSQL_DATABASE: "foodorder"
       MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
 
->>>>>>> fbc983855f8be2b7e8b97067e3e5391ba14aec99
