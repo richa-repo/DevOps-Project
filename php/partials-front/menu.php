@@ -26,7 +26,7 @@
             <div class="menu text-right">
                 <ul>
                     <li>
-                        <a href="<?php echo SITEURL; ?>..\index.php">Home(This is Richa)</a>
+                        <a href="<?php echo SITEURL; ?>..\index.php">Home</a>
                     
                     <li>
                         <a href="<?php echo SITEURL; ?>..\categories.php">Categories</a>
