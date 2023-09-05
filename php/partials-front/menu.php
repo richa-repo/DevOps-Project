@@ -26,11 +26,7 @@
             <div class="menu text-right">
                 <ul>
                     <li>
-<<<<<<< HEAD
                         <a href="<?php echo SITEURL; ?>..\index.php">Test</a>
-=======
-                        <a href="<?php echo SITEURL; ?>..\index.php">Home</a>
->>>>>>> f8b457437957136ca1b1d0362b467b9a6bacb765
                     
                     <li>
                         <a href="<?php echo SITEURL; ?>..\categories.php">Categories</a>
