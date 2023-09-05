@@ -5,7 +5,7 @@
 
 
     //Create Constants to Store Non Repeating Values
-    define('SITEURL', 'http://localhost/food-order/php');
+    define('SITEURL', 'http://localhost/food-order/');
     define('LOCALHOST', 'mysql_db');
     define('DB_USERNAME', 'root');
     define('DB_PASSWORD', 'root');
