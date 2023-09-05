@@ -26,13 +26,13 @@
             <div class="menu text-right">
                 <ul>
                     <li>
-                        <a href="<?php echo SITEURL; ?>FoodOrderMain\index.php">Home</a>
+                        <a href="<?php echo SITEURL; ?>..\index.php">Home</a>
                     
                     <li>
-                        <a href="<?php echo SITEURL; ?>FoodOrderMain\categories.php">Categories</a>
+                        <a href="<?php echo SITEURL; ?>..\categories.php">Categories</a>
                     </li>
                     <li>
-                        <a href="<?php echo SITEURL; ?>FoodOrderMain\foods.php">Foods</a>
+                        <a href="<?php echo SITEURL; ?>..\foods.php">Foods</a>
                     </li>
                     <!--
                     <li>
@@ -40,7 +40,7 @@
                     </li>
                     -->
                     <li>
-                        <a href="<?php echo SITEURL; ?>FoodOrderMain\registration.php">Login</a>
+                        <a href="<?php echo SITEURL; ?>..\registration.php">Login</a>
                     </li>
                     
                 </ul>

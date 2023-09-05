@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8"/>
     <title>Registration</title>
-    <script src="js/password_validation.js" defer></script>
+    <script src="../js/password_validation.js" defer></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Aleo|Slabo+27px" rel="stylesheet">
     <link rel="stylesheet" href="../css/pwd_validation.css">
@@ -41,12 +41,10 @@
 ?>
     <form class="form" action="" method="post">
         <h1 class="login-title">Registration</h1>
-        <input type="text" class="login-input" name="username" placeholder="Username" required />
-        <input type="text" class="login-input" name="email" placeholder="Email Address">
-        <input type="password" id="password" class="login-input" name="password" placeholder="Password"
-            onInput="check()"/>
-        <input type="submit" name="submit" value="Register" class="login-button">
-        <p class="link"><a href="login.php">Click to Login</a></p>
+        <input type="text" class="login-input" name="username" placeholder="Username" required /><br>
+        <input type="text" class="login-input" name="email" placeholder="Email Address"><br>
+        <input type="password" id="password" class="login-input" name="password" placeholder="Password" onInput="check()"/>
+        <input type="submit" name="submit" value="Register" class="login-button"><p class="link"><a href="login.php">Click to Login</a></p>
     </form>
 <?php
     }
