@@ -58,7 +58,7 @@
                                     {
                                        
                                         ?>
-                                        <img src="<?php echo SITEURL; ?>images/food/<?php echo $image_name; ?>" alt="Veggie Overload" class="img-responsive img-curve">
+                                        <img src="<?php echo SITEURL; ?>/images/food/<?php echo $image_name; ?>" alt="Veggie Overload" class="img-responsive img-curve">
                                         <?php
                                     }
                                 ?>
