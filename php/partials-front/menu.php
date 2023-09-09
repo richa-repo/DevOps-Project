@@ -26,7 +26,7 @@
             <div class="menu text-right">
                 <ul>
                     <li>
-                        <a href="<?php echo SITEURL; ?>\index.php">Test</a>
+                        <a href="<?php echo SITEURL; ?>\index.php">Home</a>
                     
                     <li>
                         <a href="<?php echo SITEURL; ?>\categories.php">Categories</a>
@@ -40,7 +40,7 @@
                     </li>
                     -->
                     <li>
-                        <a href="<?php echo SITEURL; ?>..\registration.php">Login</a>
+                        <a href="<?php echo SITEURL; ?>\registration.php">Login</a>
                     </li>
                     
                 </ul>
