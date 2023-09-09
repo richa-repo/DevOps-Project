@@ -34,7 +34,7 @@
                   </div>";
         } else {
             echo "<div class='form'>
-                  <h3>Required fields are missing.</h3><br/><br><br>
+                  <h3>Required fields are missing.</h3><br/><br>
                   <p class='link'>Click here to <a href='/registration.php'>register</a> again.</p>
                   </div>";
         }
@@ -46,7 +46,7 @@
         <h1 class="login-title">Registration</h1>
         <input type="text" class="login-input" name="username" placeholder="Username" required /><br>
         <input type="text" class="login-input" name="email" placeholder="Email Address"><br>
-        <input type="password" id="password" class="login-input" name="password" placeholder="Password" onInput="check()"/>
+        <input type="password" id="password" class="login-input" name="password" placeholder="Password" onInput="check()"/><br><br><br>
         <input type="submit" name="submit" value="Register" class="login-button"><p class="link"><a href="login.php">Click to Login</a></p>
     </form>
 <?php
