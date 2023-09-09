@@ -26,13 +26,13 @@
             <div class="menu text-right">
                 <ul>
                     <li>
-                        <a href="<?php echo SITEURL; ?>php\index.php">Test</a>
+                        <a href="<?php echo SITEURL; ?>\index.php">Test</a>
                     
                     <li>
                         <a href="<?php echo SITEURL; ?>\categories.php">Categories</a>
                     </li>
                     <li>
-                        <a href="<?php echo SITEURL; ?>php\foods.php">Foods</a>
+                        <a href="<?php echo SITEURL; ?>\foods.php">Foods</a>
                     </li>
                     <!--
                     <li>
