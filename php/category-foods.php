@@ -80,7 +80,7 @@
                                     {
                                         //Image Available
                                         ?>
-                                        <img src="<?php echo SITEURL; ?>../images/food/<?php echo $image_name; ?>" alt="Image" class="img-responsive img-curve">
+                                        <img src="<?php echo SITEURL; ?>/images/food/<?php echo $image_name; ?>" alt="Image" class="img-responsive img-curve">
                                         <?php
                                     }
                                 ?>
