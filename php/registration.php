@@ -61,19 +61,19 @@
         <div id="count">Length : 0</div>
         <i id="see" onclick="see()" class="far fa-eye"></i>
          </div>
-           <div id="check0" >
+           <div id="check0" style="margin-top:0.0002px">
                 <i class="far fa-check-circle"></i>  <span> Length more than 5.</span>
            </div>
-           <div id="check1" >
+           <div id="check1" style="margin-top:.1em">
                 <i class="far fa-check-circle"></i>  <span> Length less than 10.</span>
            </div>
-           <div id="check2" >
+           <div id="check2" style="margin-top:0em">
                 <i class="far fa-check-circle"></i>  <span> Contains numerical character.</span>
            </div>
-           <div id="check3">
+           <div id="check3" style="margin-top:0px">
                 <i class="far fa-check-circle"></i>   <span>Contains special character.</span>
            </div>
-           <div id="check4" >
+           <div id="check4" style="margin-top:0px">
                 <i class="far fa-check-circle"></i>  <span>Shouldn't contain spaces.</span>
            </div>
 </body>
