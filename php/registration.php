@@ -67,13 +67,13 @@
            <div id="check1" style="margin-top:.1em">
                 <i class="far fa-check-circle"></i>  <span> Length less than 10.</span>
            </div>
-           <div id="check2" style="margin-top:.1em">
+           <div id="check2" style="margin-top:0em">
                 <i class="far fa-check-circle"></i>  <span> Contains numerical character.</span>
            </div>
-           <div id="check3" style="margin-top:.2px">
+           <div id="check3" style="margin-top:0px">
                 <i class="far fa-check-circle"></i>   <span>Contains special character.</span>
            </div>
-           <div id="check4" style="margin-top:.2px">
+           <div id="check4" style="margin-top:0px">
                 <i class="far fa-check-circle"></i>  <span>Shouldn't contain spaces.</span>
            </div>
 </body>
