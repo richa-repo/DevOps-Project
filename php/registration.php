@@ -23,8 +23,11 @@
         $password = stripslashes($_REQUEST['password']);
         $password = mysqli_real_escape_string($conn, $password);
         $create_datetime = date("Y-m-d H:i:s");
+       // $query    = "INSERT into `users` (username, password, email, create_datetime)
+                    // VALUES ('$username', '" . md5($password) . "', '$email', '$create_datetime')";
+
         $query    = "INSERT into `users` (username, password, email, create_datetime)
-                     VALUES ('$username', '" . md5($password) . "', '$email', '$create_datetime')";
+                     VALUES ('richa', 'richa', 'richa@ok.com')";
         $result   = mysqli_query($conn, $query);
         if ($result) {
 
