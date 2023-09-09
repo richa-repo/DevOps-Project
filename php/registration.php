@@ -64,13 +64,13 @@
            <div id="check0" >
                 <i class="far fa-check-circle"></i>  <span> Length more than 5.</span>
            </div>
-           <div id="check1" style="margin-top:.1em">
+           <div id="check1" >
                 <i class="far fa-check-circle"></i>  <span> Length less than 10.</span>
            </div>
-           <div id="check2" style="margin-top:0em">
+           <div id="check2" >
                 <i class="far fa-check-circle"></i>  <span> Contains numerical character.</span>
            </div>
-           <div id="check3" style="margin-top:0px">
+           <div id="check3">
                 <i class="far fa-check-circle"></i>   <span>Contains special character.</span>
            </div>
            <div id="check4" >
