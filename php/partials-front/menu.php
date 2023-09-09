@@ -29,7 +29,7 @@
                         <a href="<?php echo SITEURL; ?>php\index.php">Test</a>
                     
                     <li>
-                        <a href="<?php echo SITEURL; ?>php\categories.php">Categories</a>
+                        <a href="<?php echo SITEURL; ?>\categories.php">Categories</a>
                     </li>
                     <li>
                         <a href="<?php echo SITEURL; ?>php\foods.php">Foods</a>
