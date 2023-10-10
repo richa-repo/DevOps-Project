@@ -1,4 +1,4 @@
-    <?php include('partials-front/menu.php'); ?>
+<?php include('partials-front/menu.php');?>
     
 
     <!-- fOOD sEARCH Section Starts Here -->
@@ -152,7 +152,7 @@
                             </p>
                             <br>
 
-                            <a href="<?php echo SITEURL; ?>FoodOrderMain\order.php?food_id=<?php echo $id; ?>" class="btn btn-primary">Order Now</a>
+                            <a href="<?php echo SITEURL; ?>\order.php?food_id=<?php echo $id; ?>" class="btn btn-primary">Order Now</a>
                         </div>
                     </div>
 
