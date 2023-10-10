@@ -1,11 +1,11 @@
-    <?php include('partials-front/menu.php'); ?>
+<?php include('partials-front/menu.php');?>
     
 
     <!-- fOOD sEARCH Section Starts Here -->
     <section class="food-search text-center">
         <div class="container">
             
-            <form action="<?php echo SITEURL; ?>food-search.php" method="POST">
+            <form action="<?php echo SITEURL; ?>\food-search.php" method="POST">
                 <input type="search" name="search" placeholder="Search for Food.." required>
                 <input type="submit" name="submit" value="Search" class="btn btn-primary">
             </form>
@@ -46,7 +46,7 @@
                         $image_name = $row['image_name'];
                         ?>
                         
-                        <a href="<?php echo SITEURL; ?>FoodOrderMain\category-foods.php?category_id=<?php echo $id; ?>">
+                        <a href="<?php echo SITEURL; ?>\category-foods.php?category_id=<?php echo $id; ?>">
                             <div class="box-3 float-container">
                                 <?php 
                                     //Check whether Image is available or not
@@ -59,7 +59,7 @@
                                     {
                                         //Image Available
                                         ?>
-                                        <img src="<?php echo SITEURL; ?>images/category/<?php echo $image_name; ?>" alt="Pizza" class="img-responsive img-curve">
+                                        <img src="<?php echo SITEURL; ?>/images/category/<?php echo $image_name; ?>" alt="Pizza" class="img-responsive img-curve">
                                         <?php
                                     }
                                 ?>
@@ -138,7 +138,7 @@
                                 {
                                     //Image Available
                                     ?>
-                                    <img src="<?php echo SITEURL; ?>images/food/<?php echo $image_name; ?>" alt="Image" class="img-responsive img-curve">
+                                    <img src="<?php echo SITEURL; ?>/images/food/<?php echo $image_name; ?>" alt="Image" class="img-responsive img-curve">
                                     <?php
                                 }
                             ?>
@@ -152,7 +152,7 @@
                             </p>
                             <br>
 
-                            <a href="<?php echo SITEURL; ?>FoodOrderMain\order.php?food_id=<?php echo $id; ?>" class="btn btn-primary">Order Now</a>
+                            <a href="<?php echo SITEURL; ?>\order.php?food_id=<?php echo $id; ?>" class="btn btn-primary">Order Now</a>
                         </div>
                     </div>
 
